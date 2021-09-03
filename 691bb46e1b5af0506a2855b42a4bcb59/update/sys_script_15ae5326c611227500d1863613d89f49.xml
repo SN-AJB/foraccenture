@@ -31,6 +31,7 @@
 contract.get(current.ast_contract);
 current.contract_type = contract.sys_class_name.getDisplayValue();
 var ci = new GlideRecord("cmdb_ci");
+//hello there with the comments.
 ci.get(current.ci_item);
 current.ci_type = ci.sys_class_name.getDisplayValue();]]></script>
         <sys_class_name>sys_script</sys_class_name>
